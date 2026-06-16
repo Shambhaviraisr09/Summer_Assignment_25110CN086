@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class program3 {
+public class program11 {
     public static void main(String[] args) {
         Scanner scnr= new Scanner(System.in);
         System.out.println("Enter the two numbers");
@@ -24,5 +24,7 @@ public class program3 {
                 b=c;
             }
             System.out.println("The gcd is="+ a);
+            scnr.close();
+            
     }
 }

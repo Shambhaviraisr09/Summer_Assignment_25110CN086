@@ -16,6 +16,9 @@ public class program1 {
                 s=s+i;
             }
             System.out.println("The sum of the first"+n+" natural numbers is = "+s);
+
+            scnr.close();
+            
     }
 
 

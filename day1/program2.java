@@ -13,5 +13,8 @@ public class program2 {
             int m=n*i;
             System.out.println(n+"*"+i+"="+m);
         }
+
+        scnr.close();
+        
     }
 }

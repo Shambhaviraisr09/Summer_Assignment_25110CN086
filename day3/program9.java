@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class program1 {
+public class program9 {
     public static void main(String[] args) {
         Scanner scnr= new Scanner(System.in);
 
@@ -19,5 +19,6 @@ public class program1 {
             System.out.println("The number is not prime");
         else
          System.out.println("The number is prime");    
+        scnr.close();
     }
 }

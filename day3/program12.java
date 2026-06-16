@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class program4 {
+public class program12 {
     public static void main(String[] args) {
         Scanner scnr=new Scanner(System.in);
 
@@ -18,6 +18,7 @@ public class program4 {
             max++;
         }
         System.out.println("The lcm of the numbers is="+ max);
-    }
+    scnr.close();
+}
     
 }

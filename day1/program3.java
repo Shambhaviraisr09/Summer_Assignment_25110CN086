@@ -15,6 +15,9 @@ int fac=1;
         }
 
         System.out.println("The factorial of "+n+" is = "+fac);
+
+        scnr.close();
+        
     }
     
 }

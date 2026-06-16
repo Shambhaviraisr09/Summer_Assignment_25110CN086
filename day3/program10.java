@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class program2 {
+public class program10 {
     static boolean isprime(int q)
                      {
                          int c=0;
@@ -30,5 +30,6 @@ public class program2 {
             else
                  System.out.println("The number "+ j+ " is not prime");          
         }
+        scnr.close();
     }
 }

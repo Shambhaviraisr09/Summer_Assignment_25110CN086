@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class program3 {
+public class program7 {
     public static void main(String[] args) {
         Scanner scnr= new Scanner(System.in);
         System.out.println("Enter the number");
@@ -15,5 +15,6 @@ public class program3 {
             n/=10;
         }
         System.out.println("The product of the digits is="+ p);
+        scnr.close();
     }
 }

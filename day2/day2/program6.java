@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class program2 {
+public class program6 {
     public static void main(String[] args) {
         Scanner scnr= new Scanner(System.in);
 
@@ -16,5 +16,6 @@ int rev=0;
     }
 
     System.out.println("The reverse of the number is="+rev);
+    scnr.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class program4 {
+public class program8{
     public static void main(String[] args) {
         Scanner scnr= new Scanner(System.in);
 
@@ -21,5 +21,7 @@ public class program4 {
             System.out.println("The number is PALLINDROME");
         else
             System.out.println("The number is NOT PALLINDROME");
+
+        scnr.close();
     }
 }
