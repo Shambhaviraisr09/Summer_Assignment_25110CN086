@@ -9,9 +9,7 @@ public class program76{
             int c= scnr.nextInt();
 
             int a[][]= new int[r][c];
-            int b[][]= new int[r][c];
-
-          
+                   
 
             System.out.println("Enter the elements of the matrix");
                 for(int i=0;i<r;i++)
@@ -22,18 +20,22 @@ public class program76{
                     }
                 }
 
-            int sum=0;
+            int sum1=0;
+            int sum2=0;
 
                 for(int i=0;i<r;i++)
                 {
                     for(int j=0;j<c;j++)
                     {
                         if(i==j)
-                            sum+=a[i][j];
+                            sum1+=a[i][j];
+
+                        if(i+j==r-1)
+                            sum2+=a[i][j];
                     }
                 }
 
-             System.out.println("The sum of the diagonal elements is "+sum);
+             System.out.println("The sum of the left diagonal elements is "+sum1+" and the sum of the right diagonal elements is "+sum2);
                
 
             scnr.close();
